@@ -11,7 +11,7 @@ $result1 = mysqli_query($con,$sql1);
 unset($_SESSION['sid']);
 // Jump to login page
 session_destroy();
-header("Location: http://localhost/index.php", true, 301);
+header("Location: http://localhost/index.html", true, 301);
 die;
 
 ?>
