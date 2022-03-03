@@ -1,7 +1,7 @@
 <?php
 
 // Inialize session
-
+session_start();
 // Include database connection settings
 include('connection.php');
 $username = $_POST['username'];  
